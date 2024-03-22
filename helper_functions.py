@@ -1,5 +1,10 @@
 import pandas as pd
 
+def drop_extraneous_col(df: pd.DataFrame) -> None:
+    if "Unnamed: 0" in df.columns:
+        df.drop("Unnamed: 0", axis=1, inplace=True)
+    
+
 def save_df(df: pd.DataFrame, name: str) -> None:
     """
     Save a newly-created DF to the correct path. Returns None.
