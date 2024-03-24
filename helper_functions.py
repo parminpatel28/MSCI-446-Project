@@ -17,7 +17,7 @@ def get_master_df() -> pd.DataFrame:
     """
     Get the most up-to-date master DF. Returns a DF.
     """
-    return pd.read_csv("csvs/master_df.csv")
+    return pd.read_csv("csvs/master_df.csv", parse_dates=['date'])
 
 def get_raw_master_df() -> pd.DataFrame:
-   return pd.read_csv("csvs/raw_master_df.csv")
+   return pd.read_csv("csvs/raw_master_df.csv",parse_dates=['date'])
