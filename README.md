@@ -33,7 +33,15 @@ Files:
 3. export_prev_game_df.ipynb
 4. export_rolling_average_df.ipynb
 
-## Part 5: Model Training, Validation and Testing
+## Part 5: Feature Engineering
+
+- Navigate to the /data exploration directory
+Files:
+1. data_exploration-4-factors.ipynb
+2. data_exploration.ipynb
+
+
+## Part 6: Model Training, Validation and Testing
 
 - Navigate to the /model training directory
 
@@ -44,7 +52,7 @@ Files:
 4. model_training_windowed_average_10_day.ipynb
 5. model_training_prev_games.ipynb
 
-## Part 6: View Results
+## Part 7: View Results
 
 - To view various metrics relating to how each dataframe performed under each model, navigate to the /csvs/model_results directory
 - Here, you can find CSV files containing each dataframe's accuracy, recall, precision, F1 score and ROC_AUC.
