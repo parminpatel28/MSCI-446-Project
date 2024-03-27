@@ -48,3 +48,4 @@ Files:
 
 - To view various metrics relating to how each dataframe performed under each model, navigate to the /csvs/model_results directory
 - Here, you can find CSV files containing each dataframe's accuracy, recall, precision, F1 score and ROC_AUC.
+- For the testing results, you can find them near the end of the model_training_cumulative_averages.ipynb notebook. This is because we selected to use the features in the cumulative averages dataframe for testing, as it provided the best results.
