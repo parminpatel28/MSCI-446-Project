@@ -37,6 +37,7 @@ Files:
 ## Part 5: Data Exploration
 
 - Navigate to the /data exploration directory
+  
 Files:
 1. data_exploration-4-factors.ipynb
 2. data_exploration.ipynb
