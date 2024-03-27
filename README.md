@@ -33,7 +33,7 @@ Files:
 3. export_prev_game_df.ipynb
 4. export_rolling_average_df.ipynb
 
-## Part 5: Feature Engineering
+## Part 5: Data Exploration
 
 - Navigate to the /data exploration directory
 Files:
