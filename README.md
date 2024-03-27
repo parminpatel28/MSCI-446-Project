@@ -1,5 +1,7 @@
 # Project Structure
 
+This project aims to predict the outcome of an NBA game using a wide range of dataframes and ML models. We employed 5 different dataframes and 4 different models. Feel free to navigate through our project to see our process :)
+
 ## Part 1: Data Collection
 
 - Navigate to the /data collection directory
@@ -42,7 +44,7 @@ Files:
 4. model_training_windowed_average_10_day.ipynb
 5. model_training_prev_games.ipynb
 
-### Part 6: View Results
+## Part 6: View Results
 
 - To view various metrics relating to how each dataframe performed under each model, navigate to the /csvs/model_results directory
 - Here, you can find CSV files containing each dataframe's accuracy, recall, precision, F1 score and ROC_AUC.
