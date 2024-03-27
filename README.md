@@ -33,7 +33,7 @@ Files:
 3. export_prev_game_df.ipynb
 4. export_rolling_average_df.ipynb
 
-## Part 5: Model Training
+## Part 5: Model Training & Testing
 
 - Navigate to the /model training directory
 
